@@ -6,21 +6,21 @@ This is a Spring Boot REST API for managing players. It includes validation, exc
 
 🚀 Features
 
-Create, Read, Update, and Delete (CRUD) operations for players
+  ✅Create, Read, Update, and Delete (CRUD) operations for players
 
-Data validation using DTOs and Jakarta Validation
+  ✅Data validation using DTOs and Jakarta Validation
 
-Global exception handling with @RestControllerAdvice
+  ✅Global exception handling with @RestControllerAdvice
 
-Uses Spring Data JPA and H2 Database (or MySQL)
+  ✅Uses Spring Data JPA and H2 Database (or MySQL)
 
 📌 End Points  
-GET         /player/list   Get all players
+    GET         /player/list         Get all players
 
-GET        /player/view/{id}    Get a player by ID
+    GET        /player/view/{id}    Get a player by ID
 
-POST      /player/create       Create a new player
+    POST      /player/create       Create a new player
 
-PUT       /player/update/{id}   Update player
+    PUT       /player/update/{id}   Update player
 
-DELETE   /player/delete/{id}    Delete player
+    DELETE   /player/delete/{id}    Delete player
